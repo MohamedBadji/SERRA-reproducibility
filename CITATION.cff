@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated SERRA article."
+title: "SERRA: Stochastic Environmental Resource Response for Agriculture"
+type: software
+authors:
+  - family-names: BADJI
+    given-names: Mohamed
+  - family-names: FAYE
+    given-names: Omar Ndaw
+  - family-names: CISS
+    given-names: Mamadou
+  - family-names: DEME
+    given-names: El Hadji
+  - family-names: NDIAYE
+    given-names: Mamadou
+repository-code: "https://github.com/MohamedBadji/SERRA-reproducibility"
