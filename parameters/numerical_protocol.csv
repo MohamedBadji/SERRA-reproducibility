@@ -1,0 +1,20 @@
+setting,value
+T_base_C,10
+k_step,0.005
+k_senB,0.010
+sigma_B,0.10
+sigma_LAI,0.05
+alpha_st,1.5
+beta_st,0
+stable_scale_s,0.20
+biomass_multiplier_bounds,"[0.05, 20]"
+LAI_multiplier_bounds,"[0.05, 2]"
+MC_calibration_LAI,50
+MC_calibration_biomass,50
+MC_final_evaluation,500
+MC_LOO_recalibration,200
+MC_LOO_prediction,300
+MC_Sobol_per_parameter_vector,150
+Sobol_base_N,1000
+Sobol_k,8
+Sobol_model_evaluations_per_configuration,10000
