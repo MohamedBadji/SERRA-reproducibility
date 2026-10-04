@@ -1,7 +1,52 @@
-.DS_Store
-Thumbs.db
+# R / RStudio
 .Rhistory
 .RData
+.Ruserdata
 .Rproj.user/
-__pycache__/
-*.pyc
+*.Rproj
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*~
+.DS_Store
+Thumbs.db
+
+# Office temporary files
+~$*.xlsx
+~$*.xls
+~$*.docx
+~$*.pptx
+
+# Logs
+*.log
+
+# Local archives
+*.zip
+*.rar
+*.7z
+
+# Personal / obsolete material
+archive/
+old/
+historical/
+backup/
+backups/
+
+# Preliminary or excluded SERRA material
+*Calibration_Fanaye2023_complete*
+*sob_V1_G_500*
+*seq_results_all_noises*
+*seq_results_ranked*
+*best_by_variety*
+*seq_results_qpoisson*
+*seq_results_v3_best*
+*v3_senB*
+
+# Historical SDE branch excluded from the final reproducibility workflow
+serra_simulator_sde.R
+serra_ensemble_sde.R
+serra_predict_sde.R
+serra_plots_sde.R
+serra_resume_workflow.R
