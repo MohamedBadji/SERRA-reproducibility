@@ -1,16 +1,45 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite the associated SERRA article."
-title: "SERRA: Stochastic Environmental Resource Response for Agriculture"
+message: "If you use this software or the associated numerical workflow, please cite the corresponding article and this repository."
+title: "SERRA reproducibility repository"
 type: software
+
 authors:
-  - family-names: BADJI
-    given-names: Mohamed
-  - family-names: FAYE
-    given-names: Omar Ndaw
-  - family-names: CISS
-    given-names: Mamadou
-  - family-names: DEME
-    given-names: El Hadji
-  - family-names: NDIAYE
-    given-names: Mamadou
+  - family-names: "BADJI"
+    given-names: "Mohamed"
+    email: "badji.mohamed@ugb.edu.sn"
+    affiliation: "LERSTAD, Université Gaston Berger, Saint-Louis, Senegal"
+
+  - family-names: "FAYE"
+    given-names: "Omar Ndaw"
+    affiliation: "Centre de Recherches Agricoles de Saint-Louis, ISRA, Saint-Louis, Senegal"
+
+  - family-names: "CISS"
+    given-names: "Mamadou"
+    affiliation: "LNERV, ISRA, Dakar, Senegal"
+
+  - family-names: "DEME"
+    given-names: "El Hadji"
+    affiliation: "LERSTAD, Université Gaston Berger, Saint-Louis, Senegal"
+
+  - family-names: "NDIAYE"
+    given-names: "Mamadou"
+    affiliation: "LERSTAD, Université Gaston Berger, Saint-Louis, Senegal"
+
 repository-code: "https://github.com/MohamedBadji/SERRA-reproducibility"
+
+keywords:
+  - "biomass growth"
+  - "stochastic modelling"
+  - "Ito-Levy equations"
+  - "alpha-stable distributions"
+  - "predictive uncertainty"
+  - "global sensitivity analysis"
+  - "irrigated rice"
+
+abstract: >-
+  Reproducibility repository for the SERRA stochastic modelling framework.
+  The repository contains R code, aggregated field observations, model inputs,
+  cached numerical results, and supporting material for calibration,
+  Monte Carlo prediction, Leave-One-Out cross-validation, Sobol global
+  sensitivity analysis, robustness assessment, and complementary numerical
+  diagnostics.
