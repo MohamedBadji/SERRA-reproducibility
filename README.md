@@ -117,6 +117,10 @@ Meteorological forcing used in the study is derived from publicly available clim
 
 Citation information is provided in `CITATION.cff`.
 
+The archived release `v1.0.0` is available on Zenodo:
+
+**DOI:** [10.5281/zenodo.23136456](https://doi.org/10.5281/zenodo.23136456)
+
 ## License
 
 See the `LICENSE` file for reuse conditions.
